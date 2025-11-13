@@ -11,7 +11,7 @@
 	<groupId>nit</groupId>
 	<artifactId>JRTP701-MP-SSA-Web-Api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>JRTP701-MP-SSA-Web-Api</name>
 	<description>Major Project</description>
 	<url/>
