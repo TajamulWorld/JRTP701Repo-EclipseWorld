@@ -33,6 +33,7 @@ public class WishMessageGenerator extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>");
 		out.println("<h1>" + message + "</h1>");
+		out.println("<h1> I am a Java Developer </h1>");
 		out.println("</body></html>");
 	}
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
