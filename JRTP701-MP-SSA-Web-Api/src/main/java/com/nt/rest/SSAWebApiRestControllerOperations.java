@@ -72,7 +72,7 @@ public class SSAWebApiRestControllerOperations {
 	    default -> "Invalid ssn";
 	};
 	
-	return new ResponseEntity<String>("My US state name is :: "+stateName, HttpStatus.OK);
+	return new ResponseEntity<String>(stateName, HttpStatus.OK);
 	
 	}
 
